@@ -9,13 +9,13 @@ private:
 public:
 	Point()
 	{
-		cout << "Constructor by default";
+		cout << "Constructor by default\n";
 		x = 0;
 		y = 0;
 	};
 	Point(int a, int b)
 	{
-		cout << "Constructor by params";
+		cout << "Constructor by params\n";
 		x = a;
 		y = b;
 	};
@@ -35,5 +35,6 @@ public:
 
 int main()
 {
-
+	Point obj1(3, 7);
+	obj1.Print();
 }
