@@ -5,11 +5,26 @@ using namespace std;
 class Student
 {
 private:
-	string Name;
+	string name;
 	int age;
 public:
-	Student();
-	~Student();
+	Student()
+	{
+		cout << "Constructor by default\n";
+		name = "Oleksii";
+		age = 19;
+	};
+	Student(string n, int a)
+	{
+		cout << "Constructor by params\n";
+		name = n;
+		age = a;
+	};
+	~Student()
+	{
+		name = " ";
+		age = -1;
+	};
 
 
 };
