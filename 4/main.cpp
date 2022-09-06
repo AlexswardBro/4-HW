@@ -24,7 +24,11 @@ public:
 		x = -1;
 		y = -1;
 	};
-
+	void Print()
+	{
+		cout << "X: " << x << endl;
+		cout << "y: " << y << endl;
+	}
 
 };
 
