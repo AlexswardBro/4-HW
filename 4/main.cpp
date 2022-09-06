@@ -69,4 +69,7 @@ int main()
 {
 	Point obj1(3, 7);
 	obj1.Print();
+
+	Student obj2("Karina", 17);
+	obj2.Print();
 }
