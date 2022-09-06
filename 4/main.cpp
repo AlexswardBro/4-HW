@@ -26,7 +26,11 @@ public:
 		age = -1;
 	};
 
-
+	void Print()
+	{
+		cout << "Name: " << name << endl;
+		cout << "Age: " << name << endl;
+	}
 };
 
 
