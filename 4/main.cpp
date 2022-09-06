@@ -19,7 +19,11 @@ public:
 		x = a;
 		y = b;
 	};
-	~Point();
+	~Point()
+	{
+		x = -1;
+		y = -1;
+	};
 
 
 };
